@@ -1,0 +1,1 @@
+find src/Course/* | entr cabal test tasty --show-detail=direct --test-option=--pattern=List/headOr

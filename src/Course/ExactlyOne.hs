@@ -34,4 +34,3 @@ instance P.Monad ExactlyOne where
     flip bindExactlyOne
   return =
     ExactlyOne
-
